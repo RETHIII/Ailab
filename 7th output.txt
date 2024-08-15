@@ -1,0 +1,39 @@
+Sample instances from the dataset are given below
+   age  gender  cp  exang  restecg  chol  heartdisease
+0   63       1   3      0        0   233             1
+1   37       1   2      0        1   250             1
+2   41       0   1      0        0   204             0
+3   56       1   1      1        0   236             1
+4   57       0   0      0        1   354             1
+
+ Attributes and datatypes
+age             int64
+gender          int64
+cp              int64
+exang           int64
+restecg         int64
+chol            int64
+heartdisease    int64
+dtype: object
+
+Learning CPD using Maximum likelihood estimators
+
+Inferencing with Bayesian Network:
+
+1. Probability of HeartDisease given evidence= restecg
++-----------------+---------------------+
+| heartdisease    |   phi(heartdisease) |
++=================+=====================+
+| heartdisease(0) |              0.5036 |
++-----------------+---------------------+
+| heartdisease(1) |              0.4964 |
++-----------------+---------------------+
+
+2. Probability of HeartDisease given evidence= cp
++-----------------+---------------------+
+| heartdisease    |   phi(heartdisease) |
++=================+=====================+
+| heartdisease(0) |              0.5262 |
++-----------------+---------------------+
+| heartdisease(1) |              0.4738 |
++-----------------+---------------------+
