@@ -1,0 +1,31 @@
+how to execute the prolog program
+
+open a notepad and write a code and save it as .pl extension save it in a new folder
+click the path and type cmd the terminal will open 
+
+type as swipl and give enter
+
+for 11th program :
+
+[filename]. eg: my file name is 11 so [11].
+?- n_queens(8, Qs).
+
+for 12th program :
+
+?- [12].
+?- solve(1, Solution).
+?- depthfirst2(1, Solution, 3).
+
+for 14th program:
+
+?- [14].
+?- depth_first_iterative_deepening(a, Solution).
+?- depth_first_iterative_deepening2(a, 4, Solution).
+
+for 15th program:
+
+?- [15].
+?- route("tampa", "kansas_city", Distance).
+?- route("houston", "kansas_city", Distance).
+
+
